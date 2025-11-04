@@ -23,11 +23,6 @@ Este repositório contém a solução completa do case técnico: construção de
    - `python src/etl/etl_base_engajamento.py`
    - `python src/ml/treinar_propensao.py`
 
-### Requisitos
-- Python 3.10+
-- PySpark 3.5+, pandas, matplotlib
-- (Databricks CE ou runtime compatível)
-
 ## Estrutura dos Notebooks
 
 1. **Missão 1 – Base de Engajamento**  
@@ -59,10 +54,7 @@ Este repositório contém a solução completa do case técnico: construção de
 - **Estratégia**: usar **E-mail** para escala e **WhatsApp** para ativação/relacionamento e reativação de clusters críticos (pré-churn/churn).  
 - **IA/ML**: modelo de propensão identifica parceiros com maior chance de conversão — base para priorização de disparos e redução de custo.
 
-## Como exportar a apresentação
-1. No Databricks, gere os gráficos/tabelas no notebook 03 e 04.
-2. Monte os slides (Google Slides/PowerPoint/Canva) com:
-   - Problema → Abordagem → Resultados → Recomendações
+
 3. Exporte para **PDF** e salve em `reports/apresentacao_case_ifood.pdf`.
 
 ## Licença
